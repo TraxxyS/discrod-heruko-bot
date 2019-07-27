@@ -8,6 +8,6 @@ exports.run = async(client, message, args) => {
         .addField("Instagram: https://www.instagram.com/fabiangvntn/")
         .addField("YouTube: https://www.youtube.com/channel/UCToYSMSN1-eL_MxC_55iGyg?view_as=subscriber")
 
-    Social.message.send(SocialEmed);
+    Social.message.channel.send(SocialEmed);
 
 }
